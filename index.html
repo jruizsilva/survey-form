@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Survey Form</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 id="title" class="title">
+				Conoce todas nuestras razas de perros y consigue la tuya ya!
+			</h1>
+			<p id="description" class="description">
+				Solo rellena los campos del formulario y nos pondremos en contacto
+				contigo
+			</p>
+			<form id="survey-form" class="survey-form">
+				<div class="field">
+					<label for="name" id="name-label" class="field__label">Nombre</label>
+					<div class="field__border-input">
+						<input
+							type="text"
+							id="name"
+							placeholder="Introduzca su nombre"
+							required
+							autocomplete=""
+							class="field__input"
+						/>
+					</div>
+				</div>
+				<div class="field">
+					<label for="email" id="email-label" class="field__label">Email</label>
+					<div class="field__border-input">
+						<input
+							type="email"
+							id="email"
+							placeholder="Introduzca su email"
+							required
+							autocomplete=""
+							class="field__input"
+						/>
+					</div>
+				</div>
+				<div class="field">
+					<label for="number" id="number-label" class="field__label"
+						>Telefono</label
+					>
+					<div class="field__border-input">
+						<input
+							type="number"
+							id="number"
+							required
+							min="1"
+							max="100000"
+							placeholder="Introduzca su número"
+							class="field__input"
+						/>
+					</div>
+				</div>
+
+				<div class="field">
+					<label for="" class="field__label">Sexo</label>
+					<select name="sexo" id="dropdown" class="dropdown">
+						<option disabled selected class="dropdown__option">
+							Seleccione una opción
+						</option>
+						<option value="adulto" name="sexo" class="dropdown__option">
+							Macho
+						</option>
+						<option value="cachorro" name="sexo" class="dropdown__option">
+							Hembra
+						</option>
+					</select>
+				</div>
+				<div class="field">
+					<label for="" class="field__label">Edad</label>
+					<select name="edad" id="dropdown" class="dropdown">
+						<option disabled selected>Seleccione una opción</option>
+						<option value="adulto" name="age" class="dropdown__option">
+							Adulto
+						</option>
+						<option value="cachorro" name="age" class="dropdown__option">
+							Cachorro
+						</option>
+					</select>
+				</div>
+				<div class="field">
+					<label for="" class="field__label">Raza</label>
+					<select name="raza" id="dropdown" class="dropdown">
+						<option disabled selected>Seleccione una opción</option>
+						<optgroup label="muy pequeño">
+							<option value="bolones" name="raza">Bichón Boloñes</option>
+							<option value="chihuahua" name="raza">Chihuahua</option>
+							<option value="brabanzon" name="raza">Pequeño brabanzón</option>
+							<option value="spaniel" name="raza">Spaniel Japonés</option>
+						</optgroup>
+						<optgroup label="mediano">
+							<option value="barbet" name="raza">Barbet</option>
+							<option value="beagle" name="raza">Beagle</option>
+							<option value="chow chow" name="raza">Chow chow</option>
+							<option value="bulldog" name="raza">Bulldog</option>
+						</optgroup>
+						<optgroup label="grande">
+							<option value="rottweiler" name="raza">Rottweiler</option>
+							<option value="terranova" name="raza">Terranova</option>
+							<option value="dalmata" name="raza">Dalmata</option>
+							<option value="galgo" name="raza">Galgo</option>
+						</optgroup>
+					</select>
+				</div>
+				<div class="field">
+					<label for="mensaje" class="field__label">Otra</label>
+					<div class="field__border-textarea">
+						<textarea
+							name="mensaje"
+							placeholder="Ingrese otra raza"
+							class="field__textarea"
+						></textarea>
+					</div>
+				</div>
+
+				<div class="horarios">
+					<label for="horarios" class="horarios__label"
+						>Horarios de contacto</label
+					>
+					<div class="container-inputs">
+						<div class="manana">
+							<input
+								type="radio"
+								name="hour"
+								value="manana"
+								id="horarios"
+								class="horarios__input"
+							/>
+							<span>Mañana</span>
+						</div>
+						<div class="tarde">
+							<input
+								type="radio"
+								name="hour"
+								value="tarde"
+								id="horarios"
+								class="horarios__input"
+							/>
+							<span>Tarde</span>
+						</div>
+					</div>
+				</div>
+				<div class="checkboxs">
+					<input
+						type="checkbox"
+						id="condiciones"
+						name="acepta-terminos"
+						value="Si"
+					/>
+					<label for="condiciones"
+						>Acepta los <a href="#">terminos y condiciones</a></label
+					>
+					<br />
+					<input
+						type="checkbox"
+						id="newslater"
+						name="suscribirse"
+						value="si"
+						required
+					/>
+					<label for="newslater">Suscribirse al boletin informativo</label>
+				</div>
+				<div class="container-submit">
+					<input
+						type="submit"
+						id="submit"
+						class="submit"
+						value="Enviar formulario"
+					/>
+				</div>
+			</form>
+		</div>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>
