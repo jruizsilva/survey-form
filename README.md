@@ -8,7 +8,7 @@ Las tecnologias utilizadas fueron:
 - HTML
 - CSS
 
-Puedes acceder al sitio web haciendo [click aqui](https://jruizsilva-tribute-page.netlify.app/). Utiliza `ctrl + click` para abrir el enlace en una nueva pestaña
+Puedes acceder al sitio web haciendo [click aqui](https://jruizsilva-survey-form.netlify.app/). Utiliza `ctrl + click` para abrir el enlace en una nueva pestaña
 
 ---
 
