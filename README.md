@@ -2,7 +2,8 @@
 
 ## Responsive Web Design Project #2
 
-Este es el segundo projecto del curso Responsive Web Design propuesto por freeCodeCamp es un plan de estudios
+Este es el segundo projecto del curso Responsive Web Design propuesto por freeCodeCamp es un plan de estudios.
+
 Las tecnologias utilizadas fueron:
 
 - HTML
