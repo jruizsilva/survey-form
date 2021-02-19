@@ -1,8 +1,8 @@
-# Survey Form
+# Survey Form FCC
 
-## FreeCodeCamp Project #2
+## Responsive Web Design Project #2
 
-Este es el segundo projecto propuesto por freeCodeCamp es un plan de estudios
+Este es el segundo projecto del curso Responsive Web Design propuesto por freeCodeCamp es un plan de estudios
 Las tecnologias utilizadas fueron:
 
 - HTML
